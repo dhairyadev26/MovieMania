@@ -13,6 +13,10 @@ import axios from "axios";
 import CustomPagination from "../../components/Pagination/CustomPagination";
 import SingleContent from "../../components/SingleContent/SingleContent";
 
+
+
+
+
 const Search = () => {
   const [type, setType] = useState(0);
   const [searchText, setSearchText] = useState("");
