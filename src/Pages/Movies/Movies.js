@@ -43,6 +43,8 @@ const Movies = () => {
         setGenres={setGenres}
         setPage={setPage}
       />
+      <>
+      </>
       <div className="trending">
         {content &&
           content.map((c) => (
