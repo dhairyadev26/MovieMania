@@ -13,7 +13,7 @@ const Trending = () => {
       `https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}&page=${page}`
     );
   
-    
+
     setContent(data.results);
   };
 
@@ -22,7 +22,7 @@ const Trending = () => {
     fetchTrending();
     // eslint-disable-next-line
   }, [page]);
-
+//html part starts
   return (
     <div>
       <span className="pageTitle">Trending Today</span>
@@ -44,5 +44,6 @@ const Trending = () => {
     </div>
   );
 };
+
 
 export default Trending;
