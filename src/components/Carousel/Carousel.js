@@ -21,7 +21,7 @@ const Gallery = ({ id, media_type }) => {
       <b className="carouselItem__txt">{c?.name}</b>
     </div>
   ));
-
+//Responsiveness
   const responsive = {
     0: {
       items: 3,
@@ -33,7 +33,7 @@ const Gallery = ({ id, media_type }) => {
       items: 7,
     },
   };
-
+//fetch credits functions
   const fetchCredits = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/${media_type}/${id}/credits?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`
