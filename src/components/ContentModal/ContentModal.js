@@ -62,7 +62,7 @@ export default function TransitionsModal({ children, media_type, id }) {
 
     setVideo(data.results[0]?.key);
   };
-
+//use effect
   useEffect(() => {
     fetchData();
     fetchVideo();
