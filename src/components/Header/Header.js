@@ -1,5 +1,5 @@
 import "./Header.css";
-
+//header
 const Header = () => {
   return (
     <span onClick={() => window.scroll(0, 0)} className="header">
@@ -7,5 +7,6 @@ const Header = () => {
     </span>
   );
 };
+
 
 export default Header;
