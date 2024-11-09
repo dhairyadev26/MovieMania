@@ -29,6 +29,8 @@
   color: white;
 }
 
+
+
 @media (max-width: 1000px) {
   .pageTitle {
     font-size: 6.4vw;
