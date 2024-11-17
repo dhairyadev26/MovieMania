@@ -40,7 +40,7 @@ const Gallery = ({ id, media_type }) => {
     );
     setCredits(data.cast);
   };
-
+//
   useEffect(() => {
     fetchCredits();
     // eslint-disable-next-line
