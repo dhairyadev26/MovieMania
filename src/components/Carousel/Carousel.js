@@ -45,7 +45,7 @@ const Gallery = ({ id, media_type }) => {
     fetchCredits();
     // eslint-disable-next-line
   }, []);
-
+///
   return (
     <AliceCarousel
       mouseTracking
