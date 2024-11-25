@@ -69,7 +69,7 @@ export default function TransitionsModal({ children, media_type, id }) {
     fetchVideo();
     // eslint-disable-next-line
   }, []);
-//html code
+
   return (
     <>
       <div
