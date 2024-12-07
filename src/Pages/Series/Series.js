@@ -21,8 +21,6 @@ const Series = () => {
     setNumOfPages(data.total_pages);
     // console.log(data)yes;
   };
-
-
   useEffect(() => {
     window.scroll(0, 0);
     fetchSeries();
