@@ -26,6 +26,7 @@ const Series = () => {
     fetchSeries();
     // eslint-disable-next-line
   }, [genreforURL, page]);
+  
 
   return (
     <div>
