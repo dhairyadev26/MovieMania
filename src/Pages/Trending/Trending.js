@@ -15,7 +15,6 @@ const Trending = () => {
 
     setContent(data.results);
   };
-//use effect
   useEffect(() => {
     window.scroll(0, 0);
     fetchTrending();
