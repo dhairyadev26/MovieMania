@@ -6,4 +6,3 @@ const useGenre = (selectedGenres) => {
 };
 
 export default useGenre;
-
