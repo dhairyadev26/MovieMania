@@ -5,5 +5,4 @@ const useGenre = (selectedGenres) => {
   return GenreIds.reduce((acc, curr) => acc + "," + curr);
 };
 
-
 export default useGenre;
