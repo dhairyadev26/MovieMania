@@ -33,7 +33,7 @@ const Genres = ({
     );
     setGenres(data.genres);
   };
-//use effect
+//use eff
   useEffect(() => {
     fetchGenres();
 ////
