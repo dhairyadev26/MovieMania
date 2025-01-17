@@ -46,8 +46,6 @@ const Gallery = ({ id, media_type }) => {
     // eslint-disable-next-line
   }, []);
   return (
-
-    
     <AliceCarousel
       mouseTracking
       infinite
