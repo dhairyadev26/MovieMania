@@ -92,6 +92,7 @@ export default function TransitionsModal({ children, media_type, id }) {
           timeout: 500,
         }}
       >
+        
         <Fade in={open}>
           {content && (
             <div className={classes.paper}>
