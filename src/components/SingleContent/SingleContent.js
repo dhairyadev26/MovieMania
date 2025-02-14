@@ -12,7 +12,6 @@ const SingleContent = ({
   vote_average,
 }) => {
   return (
-    
     <ContentModal media_type={media_type} id={id}>
       <Badge
         badgeContent={vote_average}
