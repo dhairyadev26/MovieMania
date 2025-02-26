@@ -33,10 +33,10 @@ const Genres = ({
     );
     setGenres(data.genres);
   };
-//use eff
+
   useEffect(() => {
     fetchGenres();
-    
+
     return () => {
       setGenres({}); // unmounting
     };
