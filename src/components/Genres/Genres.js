@@ -36,7 +36,7 @@ const Genres = ({
 //use eff
   useEffect(() => {
     fetchGenres();
-////
+    
     return () => {
       setGenres({}); // unmounting
     };
