@@ -44,7 +44,6 @@ const Movies = () => {
         setPage={setPage}
       />
 
-      
       <>
       </>
       <div className="trending">
