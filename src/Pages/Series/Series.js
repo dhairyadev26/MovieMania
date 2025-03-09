@@ -58,4 +58,5 @@ const Series = () => {
     </div>
   );
 };
+
 export default Series;
