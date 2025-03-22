@@ -24,7 +24,6 @@ const Trending = () => {
 
 
 
-
 //html part starts
   return (
     <div>
