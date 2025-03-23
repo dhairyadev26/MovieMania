@@ -23,7 +23,6 @@ const Trending = () => {
   }, [page]);
 
 
-
 //html part starts
   return (
     <div>
