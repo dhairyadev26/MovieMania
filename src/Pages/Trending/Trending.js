@@ -21,8 +21,6 @@ const Trending = () => {
     fetchTrending();
     // eslint-disable-next-line
   }, [page]);
-
-//html part starts
   return (
     <div>
       <span className="pageTitle">Trending Today</span>
