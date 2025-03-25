@@ -22,7 +22,6 @@ const Trending = () => {
     // eslint-disable-next-line
   }, [page]);
 
-
 //html part starts
   return (
     <div>
