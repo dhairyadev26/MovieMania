@@ -91,8 +91,7 @@ export default function TransitionsModal({ children, media_type, id }) {
         BackdropProps={{
           timeout: 500,
         }}
-      >
-        
+      > 
         <Fade in={open}>
           {content && (
             <div className={classes.paper}>
