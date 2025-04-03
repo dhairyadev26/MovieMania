@@ -78,6 +78,7 @@ export default function TransitionsModal({ children, media_type, id }) {
         onClick={handleOpen}
       >
         
+
         {children}
       </div>
       <Modal
