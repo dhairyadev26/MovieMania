@@ -77,8 +77,6 @@ export default function TransitionsModal({ children, media_type, id }) {
         color="inherit"
         onClick={handleOpen}
       >
-        
-
         {children}
       </div>
       <Modal
