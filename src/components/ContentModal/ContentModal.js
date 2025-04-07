@@ -71,6 +71,8 @@ export default function TransitionsModal({ children, media_type, id }) {
   }, []);
   return (
     <>
+
+    
       <div
         className="media"
         style={{ cursor: "pointer" }}
