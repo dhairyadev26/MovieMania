@@ -33,7 +33,7 @@ const Genres = ({
     );
     setGenres(data.genres);
   };
-  
+
 
   useEffect(() => {
     fetchGenres();
@@ -41,6 +41,7 @@ const Genres = ({
     return () => {
       setGenres({}); // unmounting
     };
+    
     // eslint-disable-next-line
   }, []);
 
