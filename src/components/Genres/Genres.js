@@ -45,7 +45,6 @@ const Genres = ({
     // eslint-disable-next-line
   }, []);
 
-
   return (
     <div style={{ padding: "6px 0" }}>
       {selectedGenres.map((genre) => (
