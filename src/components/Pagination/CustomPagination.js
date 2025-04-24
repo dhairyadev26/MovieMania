@@ -35,4 +35,3 @@ export default function CustomPagination({ setPage, numOfPages = 10 }) {
     </div>
   );
 }
-
