@@ -14,6 +14,7 @@ export default function CustomPagination({ setPage, numOfPages = 10 }) {
     window.scroll(0, 0);
   };
 
+  
   return (
     <div
       style={{
